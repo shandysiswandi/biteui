@@ -1,0 +1,345 @@
+{
+  "language": {
+    "label": "Bahasa",
+    "switch": "Ganti bahasa"
+  },
+  "console": {
+    "breadcrumb": {
+      "application": "Aplikasi",
+      "dashboard": "Dasbor",
+      "feature1": "Fitur 1",
+      "feature2": "Fitur 2",
+      "page1": "Halaman 1",
+      "page2": "Halaman 2",
+      "user": "Pengguna",
+      "profile": "Profil",
+      "notifications": "Notifikasi",
+      "settings": "Pengaturan",
+      "management": "Manajemen",
+      "users": "Pengguna",
+      "iam": "IAM"
+    },
+    "sidebar": {
+      "features": "Fitur",
+      "managements": "Manajemen",
+      "dashboard": "Dasbor",
+      "feature1": "Fitur 1",
+      "feature1Page1": "Halaman 1",
+      "feature1Page2": "Halaman 2",
+      "feature2": "Fitur 2",
+      "feature2Page1": "Halaman 1",
+      "feature2Page2": "Halaman 2",
+      "users": "Pengguna",
+      "iam": "IAM"
+    },
+    "notifications": {
+      "label": "Notifikasi",
+      "markAllRead": "Tandai semua dibaca",
+      "viewAll": "Lihat semua",
+      "items": {
+        "orderShipped": {
+          "title": "Pesanan dikirim",
+          "description": "Pesanan #4312 sedang dikirim dan tiba besok.",
+          "time": "2m lalu"
+        },
+        "newComment": {
+          "title": "Komentar baru",
+          "description": "Maya memberi masukan pada dokumen rencana Q3.",
+          "time": "1j lalu"
+        },
+        "weeklyReport": {
+          "title": "Laporan mingguan",
+          "description": "Ringkasan analitik Anda siap dilihat.",
+          "time": "Kemarin"
+        }
+      }
+    },
+    "userMenu": {
+      "profile": "Profil",
+      "settings": "Pengaturan",
+      "notifications": "Notifikasi",
+      "logout": "Keluar",
+      "loggingOut": "Sedang keluar..."
+    },
+    "settingsDialog": {
+      "open": "Buka Pengaturan",
+      "title": "Pengaturan",
+      "description": "Sesuaikan pengaturan Anda di sini.",
+      "nav": {
+        "notifications": "Notifikasi",
+        "appearance": "Tampilan",
+        "messagesMedia": "Pesan & media",
+        "languageRegion": "Bahasa & wilayah",
+        "accessibility": "Aksesibilitas",
+        "connectedAccounts": "Akun terhubung",
+        "privacyVisibility": "Privasi & visibilitas",
+        "advanced": "Lanjutan"
+      },
+      "breadcrumb": {
+        "settings": "Pengaturan",
+        "messagesMedia": "Pesan & media"
+      }
+    }
+  },
+  "auth": {
+    "common": {
+      "emailLabel": "Email",
+      "passwordLabel": "Kata sandi",
+      "nameLabel": "Nama",
+      "passwordPlaceholder": "\u25cf\u25cf\u25cf\u25cf\u25cf",
+      "or": "ATAU",
+      "backToLogin": "Kembali ke masuk",
+      "continueWithGoogle": "Lanjutkan dengan Google"
+    },
+    "login": {
+      "title": "Masuk ke akun Anda",
+      "subtitle": "Masukkan email Anda untuk masuk ke akun Anda",
+      "emailPlaceholder": "m@example.com",
+      "forgotPassword": "Lupa kata sandi?",
+      "submitting": "Sedang masuk...",
+      "submit": "Masuk",
+      "noAccount": "Belum punya akun?",
+      "createAccount": "Buat akun baru"
+    },
+    "loginMfa": {
+      "title": "Verifikasi masuk",
+      "subtitle": "Masukkan kode enam digit dari autentikator Anda.",
+      "otpLabel": "OTP",
+      "verify": "Verifikasi kode",
+      "verifying": "Memverifikasi...",
+      "useAnotherAccount": "Gunakan akun lain"
+    },
+    "register": {
+      "title": "Buat akun",
+      "subtitle": "Masukkan detail Anda untuk membuat akun",
+      "namePlaceholder": "Jane Doe",
+      "emailPlaceholder": "m@example.com",
+      "submitting": "Membuat...",
+      "submit": "Buat akun",
+      "termsPrefix": "Dengan mengklik buat akun, Anda menyetujui",
+      "termsLink": "Ketentuan Layanan",
+      "termsJoiner": "dan",
+      "privacyLink": "Kebijakan Privasi",
+      "termsSuffix": ".",
+      "alreadyAccount": "Sudah punya akun?",
+      "login": "Masuk",
+      "resend": {
+        "sending": "Mengirim...",
+        "availableIn": "Kirim ulang tersedia dalam {{time}}",
+        "button": "Kirim ulang email verifikasi"
+      }
+    },
+    "registerSuccess": {
+      "created": {
+        "title": "Pendaftaran berhasil!",
+        "description": "Kami telah mengirim tautan verifikasi ke email Anda. Silakan verifikasi email untuk mengaktifkan akun."
+      },
+      "unverified": {
+        "title": "Akun belum terverifikasi",
+        "description": "Akun Anda belum terverifikasi. Anda bisa mengirim ulang email verifikasi di bawah."
+      },
+      "deactivated": {
+        "title": "Akun dinonaktifkan",
+        "description": "Akun Anda sebelumnya dinonaktifkan. Silakan hubungi dukungan jika perlu bantuan."
+      },
+      "notAllowed": {
+        "title": "Akun tidak diizinkan",
+        "description": "Akun Anda tidak diizinkan untuk mendaftar saat ini. Silakan hubungi dukungan jika perlu bantuan."
+      },
+      "resend": {
+        "limit": "Anda telah mencapai batas kirim ulang. Coba lagi dalam 15 menit.",
+        "hint": "Tidak menerima email? Kami akan mengirim tautan verifikasi lainnya."
+      }
+    },
+    "forgotPassword": {
+      "title": "Lupa kata sandi?",
+      "subtitle": "Masukkan email Anda dan kami akan mengirim instruksi reset",
+      "emailPlaceholder": "m@example.com",
+      "submitSend": "Kirim email reset",
+      "submitResend": "Kirim ulang email reset",
+      "submitting": "Mengirim...",
+      "remembered": "Sudah ingat kata sandi?"
+    },
+    "forgotPasswordSuccess": {
+      "title": "Periksa email Anda",
+      "description": "Jika akun untuk email ini ada, Anda akan menerima email reset."
+    },
+    "resetPassword": {
+      "title": "Reset kata sandi",
+      "subtitle": "Buat kata sandi baru untuk akun Anda",
+      "newPasswordLabel": "Kata sandi baru",
+      "newPasswordPlaceholder": "Buat kata sandi baru",
+      "confirmPasswordLabel": "Konfirmasi kata sandi",
+      "confirmPasswordPlaceholder": "Konfirmasi kata sandi baru Anda",
+      "hint": "Gunakan 8-72 karakter dengan huruf besar/kecil dan angka.",
+      "submit": "Reset kata sandi",
+      "submitting": "Mereset...",
+      "requestNew": "Minta tautan reset baru",
+      "invalid": {
+        "title": "Tautan reset tidak valid",
+        "description": "Tautan ini hilang, kedaluwarsa, atau sudah digunakan. Minta tautan reset baru."
+      },
+      "success": {
+        "title": "Kata sandi direset",
+        "description": "Kata sandi Anda sudah diperbarui. Anda sekarang bisa masuk dengan kata sandi baru."
+      }
+    },
+    "verifyEmail": {
+      "invalid": {
+        "title": "Tautan verifikasi tidak valid",
+        "description": "Tautan ini hilang, kedaluwarsa, atau sudah digunakan. Silakan minta email verifikasi baru."
+      },
+      "verifying": {
+        "title": "Memverifikasi email Anda",
+        "description": "Tunggu sebentar saat kami mengonfirmasi akun Anda."
+      }
+    },
+    "layout": {
+      "backgroundAlt": "Latar autentikasi"
+    },
+    "toasts": {
+      "loginSuccess": "Berhasil masuk",
+      "mfaTokenMissing": "Token MFA tidak tersedia. Silakan masuk kembali.",
+      "registerSuccess": "Akun berhasil dibuat. Silakan verifikasi email Anda.",
+      "forgotPasswordSuccess": "Periksa email Anda untuk instruksi reset",
+      "resetPasswordSuccess": "Kata sandi Anda sudah direset. Silakan masuk.",
+      "verifySuccess": "Email Anda sudah diverifikasi. Anda sekarang bisa masuk.",
+      "verifyInvalid": "Tautan verifikasi tidak valid atau kedaluwarsa.",
+      "sessionMissing": "Sesi masuk tidak tersedia. Silakan coba lagi.",
+      "oauthUnavailable": "{{provider}} belum tersedia"
+    }
+  },
+  "validation": {
+    "email": {
+      "invalid": "Silakan masukkan email yang valid"
+    },
+    "password": {
+      "required": "Kata sandi wajib diisi",
+      "length": "Kata sandi baru harus 8-72 karakter",
+      "noSpaces": "Kata sandi tidak boleh mengandung spasi",
+      "uppercase": "Kata sandi harus mengandung setidaknya satu huruf besar",
+      "lowercase": "Kata sandi harus mengandung setidaknya satu huruf kecil",
+      "number": "Kata sandi harus mengandung setidaknya satu angka"
+    },
+    "name": {
+      "invalid": "Silakan masukkan nama yang valid"
+    }
+  },
+  "management": {
+    "users": {
+      "title": "Pengguna Workspace",
+      "description": "Tinjau dan kelola akun untuk workspace Anda.",
+      "actions": {
+        "import": "Impor",
+        "export": "Ekspor",
+        "create": "Buat",
+        "cancel": "Batal"
+      },
+      "import": {
+        "title": "Impor pengguna",
+        "description": "Unggah CSV untuk menambahkan beberapa pengguna sekaligus.",
+        "csvLabel": "File CSV",
+        "notesLabel": "Catatan",
+        "notesPlaceholder": "Label opsional untuk impor ini",
+        "submit": "Impor pengguna"
+      },
+      "export": {
+        "title": "Ekspor pengguna",
+        "description": "Unduh ekspor CSV dari daftar pengguna saat ini.",
+        "fileNameLabel": "Nama file",
+        "fileNamePlaceholder": "users-export",
+        "submit": "Ekspor CSV"
+      },
+      "create": {
+        "title": "Buat pengguna",
+        "description": "Tambah pengguna baru dan tetapkan peran utamanya.",
+        "fullNameLabel": "Nama lengkap",
+        "fullNamePlaceholder": "Jane Doe",
+        "emailLabel": "Email",
+        "emailPlaceholder": "jane@company.com",
+        "roleLabel": "Peran",
+        "rolePlaceholder": "Member",
+        "submit": "Buat pengguna"
+      },
+      "columns": {
+        "name": "Nama",
+        "email": "Email",
+        "status": "Status",
+        "lastUpdated": "Terakhir diperbarui"
+      },
+      "filters": {
+        "status": "Status"
+      },
+      "status": {
+        "unknown": "Tidak diketahui",
+        "unverified": "Belum terverifikasi",
+        "active": "Aktif",
+        "banned": "Diblokir",
+        "deleted": "Dihapus"
+      },
+      "searchPlaceholder": "Cari pengguna...",
+      "dateRangePlaceholder": "Rentang tanggal"
+    }
+  },
+  "datatable": {
+    "actions": {
+      "openMenu": "Buka menu",
+      "detail": "Detail {{id}}",
+      "edit": "Ubah",
+      "delete": "Hapus"
+    },
+    "sort": {
+      "open": "Buka opsi sortir",
+      "asc": "Naik",
+      "desc": "Turun",
+      "hide": "Sembunyikan"
+    },
+    "search": {
+      "placeholder": "Mencari..."
+    },
+    "dateRange": {
+      "placeholder": "Rentang tanggal",
+      "apply": "Terapkan"
+    },
+    "filters": {
+      "reset": "Atur ulang",
+      "clear": "Hapus filter",
+      "selected": "{{count}} terpilih"
+    },
+    "columns": {
+      "toggle": "Tampilkan kolom"
+    },
+    "empty": {
+      "filtered": {
+        "title": "Tidak ada hasil",
+        "description": "Coba perluas pencarian atau bersihkan filter untuk melihat lebih banyak data."
+      },
+      "default": {
+        "title": "Belum ada data",
+        "description": "Data akan muncul di sini setelah tersedia."
+      }
+    },
+    "error": {
+      "title": "Terjadi kesalahan",
+      "description": "Data tidak dapat dimuat. Silakan coba lagi.",
+      "retry": "Coba lagi"
+    },
+    "command": {
+      "empty": "Tidak ada hasil."
+    },
+    "pagination": {
+      "rowsSelected": "{{selected}} dari {{total}} baris terpilih.",
+      "rowsPerPage": "Baris per halaman",
+      "pageOf": "Halaman {{current}} dari {{total}}",
+      "first": "Ke halaman pertama",
+      "previous": "Ke halaman sebelumnya",
+      "next": "Ke halaman berikutnya",
+      "last": "Ke halaman terakhir"
+    },
+    "fallback": {
+      "title": "Perlu tampilan desktop",
+      "description": "Tabel ini dioptimalkan untuk layar besar. Silakan buka halaman ini di laptop atau desktop untuk mengelola pengguna.",
+      "refresh": "Muat ulang"
+    }
+  }
+}

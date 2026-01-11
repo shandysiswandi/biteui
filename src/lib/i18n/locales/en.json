@@ -1,0 +1,345 @@
+{
+  "language": {
+    "label": "Language",
+    "switch": "Switch language"
+  },
+  "console": {
+    "breadcrumb": {
+      "application": "Application",
+      "dashboard": "Dashboard",
+      "feature1": "Feature 1",
+      "feature2": "Feature 2",
+      "page1": "Page 1",
+      "page2": "Page 2",
+      "user": "User",
+      "profile": "Profile",
+      "notifications": "Notifications",
+      "settings": "Settings",
+      "management": "Management",
+      "users": "Users",
+      "iam": "IAM"
+    },
+    "sidebar": {
+      "features": "Features",
+      "managements": "Managements",
+      "dashboard": "Dashboard",
+      "feature1": "Feature 1",
+      "feature1Page1": "Page 1",
+      "feature1Page2": "Page 2",
+      "feature2": "Feature 2",
+      "feature2Page1": "Page 1",
+      "feature2Page2": "Page 2",
+      "users": "Users",
+      "iam": "IAM"
+    },
+    "notifications": {
+      "label": "Notifications",
+      "markAllRead": "Mark all as read",
+      "viewAll": "View all",
+      "items": {
+        "orderShipped": {
+          "title": "Order shipped",
+          "description": "Order #4312 is on the way and arriving tomorrow.",
+          "time": "2m ago"
+        },
+        "newComment": {
+          "title": "New comment",
+          "description": "Maya left feedback on the Q3 planning doc.",
+          "time": "1h ago"
+        },
+        "weeklyReport": {
+          "title": "Weekly report",
+          "description": "Your analytics summary is ready to view.",
+          "time": "Yesterday"
+        }
+      }
+    },
+    "userMenu": {
+      "profile": "Profile",
+      "settings": "Settings",
+      "notifications": "Notifications",
+      "logout": "Log out",
+      "loggingOut": "Logging out..."
+    },
+    "settingsDialog": {
+      "open": "Open Settings",
+      "title": "Settings",
+      "description": "Customize your settings here.",
+      "nav": {
+        "notifications": "Notifications",
+        "appearance": "Appearance",
+        "messagesMedia": "Messages & media",
+        "languageRegion": "Language & region",
+        "accessibility": "Accessibility",
+        "connectedAccounts": "Connected accounts",
+        "privacyVisibility": "Privacy & visibility",
+        "advanced": "Advanced"
+      },
+      "breadcrumb": {
+        "settings": "Settings",
+        "messagesMedia": "Messages & media"
+      }
+    }
+  },
+  "auth": {
+    "common": {
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "nameLabel": "Name",
+      "passwordPlaceholder": "\u25cf\u25cf\u25cf\u25cf\u25cf",
+      "or": "OR",
+      "backToLogin": "Back to login",
+      "continueWithGoogle": "Continue with Google"
+    },
+    "login": {
+      "title": "Login to your account",
+      "subtitle": "Enter your email below to login to your account",
+      "emailPlaceholder": "m@example.com",
+      "forgotPassword": "Forgot password?",
+      "submitting": "Logging in...",
+      "submit": "Login",
+      "noAccount": "Don't have an account?",
+      "createAccount": "Create new account"
+    },
+    "loginMfa": {
+      "title": "Verify your sign-in",
+      "subtitle": "Enter the six-digit code from your authenticator.",
+      "otpLabel": "OTP",
+      "verify": "Verify code",
+      "verifying": "Verifying...",
+      "useAnotherAccount": "Use another account"
+    },
+    "register": {
+      "title": "Create an account",
+      "subtitle": "Enter your details below to create your account",
+      "namePlaceholder": "Jane Doe",
+      "emailPlaceholder": "m@example.com",
+      "submitting": "Creating...",
+      "submit": "Create account",
+      "termsPrefix": "By clicking create account, you agree to our",
+      "termsLink": "Terms of Service",
+      "termsJoiner": "and",
+      "privacyLink": "Privacy Policy",
+      "termsSuffix": ".",
+      "alreadyAccount": "Already have an account?",
+      "login": "Login",
+      "resend": {
+        "sending": "Sending...",
+        "availableIn": "Resend available in {{time}}",
+        "button": "Resend verification email"
+      }
+    },
+    "registerSuccess": {
+      "created": {
+        "title": "Registration successful!",
+        "description": "We've sent a verification link to your email address. Please verify your email to activate your account."
+      },
+      "unverified": {
+        "title": "Account not verified",
+        "description": "Your account is not verified yet. You can resend the verification email below."
+      },
+      "deactivated": {
+        "title": "Account deactivated",
+        "description": "Your account was previously deactivated. Please contact our support if you need help."
+      },
+      "notAllowed": {
+        "title": "Account not allowed",
+        "description": "Your account is not allowed to register right now. Please contact our support if you need help."
+      },
+      "resend": {
+        "limit": "You have reached the resend limit. Try again in 15 minutes.",
+        "hint": "Didn't get the email? We'll send another verification link."
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "subtitle": "Enter your email and we'll send reset instructions",
+      "emailPlaceholder": "m@example.com",
+      "submitSend": "Send reset email",
+      "submitResend": "Resend reset email",
+      "submitting": "Sending...",
+      "remembered": "Remembered your password?"
+    },
+    "forgotPasswordSuccess": {
+      "title": "Check your email",
+      "description": "If an account exists for this email, you'll receive a reset email."
+    },
+    "resetPassword": {
+      "title": "Reset your password",
+      "subtitle": "Create a new password for your account",
+      "newPasswordLabel": "New password",
+      "newPasswordPlaceholder": "Create a new password",
+      "confirmPasswordLabel": "Confirm password",
+      "confirmPasswordPlaceholder": "Confirm your new password",
+      "hint": "Use 8-72 characters with upper/lowercase letters and a number.",
+      "submit": "Reset password",
+      "submitting": "Resetting...",
+      "requestNew": "Request a new reset link",
+      "invalid": {
+        "title": "Reset link is invalid",
+        "description": "This link is missing, expired, or already used. Request a new reset link."
+      },
+      "success": {
+        "title": "Password reset",
+        "description": "Your password has been updated. You can now log in with your new password."
+      }
+    },
+    "verifyEmail": {
+      "invalid": {
+        "title": "Invalid verification link",
+        "description": "This link is missing, expired, or already used. Please request a new verification email."
+      },
+      "verifying": {
+        "title": "Verifying your email",
+        "description": "Hold on while we confirm your account."
+      }
+    },
+    "layout": {
+      "backgroundAlt": "Authentication background"
+    },
+    "toasts": {
+      "loginSuccess": "Logged in",
+      "mfaTokenMissing": "MFA token missing. Please sign in again.",
+      "registerSuccess": "Account created. Please verify your email.",
+      "forgotPasswordSuccess": "Check your email for reset instructions",
+      "resetPasswordSuccess": "Your password has been reset. Please log in.",
+      "verifySuccess": "Your email has been verified. You can now log in.",
+      "verifyInvalid": "Verification link is invalid or expired.",
+      "sessionMissing": "Login session missing. Please try again.",
+      "oauthUnavailable": "{{provider}} sign-in is not wired yet"
+    }
+  },
+  "validation": {
+    "email": {
+      "invalid": "Please enter a valid email"
+    },
+    "password": {
+      "required": "Password is required",
+      "length": "New password must be 8-72 characters",
+      "noSpaces": "Password cannot contain spaces",
+      "uppercase": "Password must include at least one uppercase letter",
+      "lowercase": "Password must include at least one lowercase letter",
+      "number": "Password must include at least one number"
+    },
+    "name": {
+      "invalid": "Please enter a valid name"
+    }
+  },
+  "management": {
+    "users": {
+      "title": "Workspace Usersxx",
+      "description": "Review and manage account for your workspace.",
+      "actions": {
+        "import": "Import",
+        "export": "Export",
+        "create": "Create",
+        "cancel": "Cancel"
+      },
+      "import": {
+        "title": "Import users",
+        "description": "Upload a CSV to add multiple users at once.",
+        "csvLabel": "CSV file",
+        "notesLabel": "Notes",
+        "notesPlaceholder": "Optional label for this import",
+        "submit": "Import users"
+      },
+      "export": {
+        "title": "Export users",
+        "description": "Download a CSV export of the current user list.",
+        "fileNameLabel": "File name",
+        "fileNamePlaceholder": "users-export",
+        "submit": "Export CSV"
+      },
+      "create": {
+        "title": "Create user",
+        "description": "Add a new user and assign their primary role.",
+        "fullNameLabel": "Full name",
+        "fullNamePlaceholder": "Jane Doe",
+        "emailLabel": "Email",
+        "emailPlaceholder": "jane@company.com",
+        "roleLabel": "Role",
+        "rolePlaceholder": "Member",
+        "submit": "Create user"
+      },
+      "columns": {
+        "name": "Name",
+        "email": "Email",
+        "status": "Status",
+        "lastUpdated": "Last Updated"
+      },
+      "filters": {
+        "status": "Status"
+      },
+      "status": {
+        "unknown": "Unknown",
+        "unverified": "Unverified",
+        "active": "Active",
+        "banned": "Banned",
+        "deleted": "Deleted"
+      },
+      "searchPlaceholder": "Search users...",
+      "dateRangePlaceholder": "Date Range"
+    }
+  },
+  "datatable": {
+    "actions": {
+      "openMenu": "Open menu",
+      "detail": "Detail {{id}}",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "sort": {
+      "open": "Open sort options",
+      "asc": "Asc",
+      "desc": "Desc",
+      "hide": "Hide"
+    },
+    "search": {
+      "placeholder": "Searching..."
+    },
+    "dateRange": {
+      "placeholder": "Date range",
+      "apply": "Apply"
+    },
+    "filters": {
+      "reset": "Reset",
+      "clear": "Clear filters",
+      "selected": "{{count}} selected"
+    },
+    "columns": {
+      "toggle": "Toggle columns"
+    },
+    "empty": {
+      "filtered": {
+        "title": "No matches found",
+        "description": "Try broadening your search or clear filters to see more rows."
+      },
+      "default": {
+        "title": "Nothing here yet",
+        "description": "Records will appear here once they are available."
+      }
+    },
+    "error": {
+      "title": "Something went wrong",
+      "description": "We couldn't load the data. Please try again.",
+      "retry": "Retry"
+    },
+    "command": {
+      "empty": "No results found."
+    },
+    "pagination": {
+      "rowsSelected": "{{selected}} of {{total}} row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "pageOf": "Page {{current}} of {{total}}",
+      "first": "Go to first page",
+      "previous": "Go to previous page",
+      "next": "Go to next page",
+      "last": "Go to last page"
+    },
+    "fallback": {
+      "title": "Desktop view required",
+      "description": "This table is optimized for larger screens. Please open this page on a laptop or desktop to manage users.",
+      "refresh": "Refresh"
+    }
+  }
+}
