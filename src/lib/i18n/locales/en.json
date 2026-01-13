@@ -1,0 +1,218 @@
+{
+  "console": {
+    "sidebar": {
+      "features": "Features",
+      "managements": "Managements",
+      "dashboard": "Dashboard",
+      "feature1": "Feature 1",
+      "feature1Page1": "Page 1",
+      "feature1Page2": "Page 2",
+      "feature2": "Feature 2",
+      "feature2Page1": "Page 1",
+      "feature2Page2": "Page 2",
+      "users": "Users",
+      "iam": "IAM"
+    },
+    "notifications": {
+      "label": "Notifications",
+      "markAllRead": "Mark all as read",
+      "viewAll": "View all",
+      "items": {
+        "orderShipped": {
+          "title": "Order shipped",
+          "description": "Order #4312 is on the way and arriving tomorrow.",
+          "time": "2m ago"
+        },
+        "newComment": {
+          "title": "New comment",
+          "description": "Maya left feedback on the Q3 planning doc.",
+          "time": "1h ago"
+        },
+        "weeklyReport": {
+          "title": "Weekly report",
+          "description": "Your analytics summary is ready to view.",
+          "time": "Yesterday"
+        }
+      }
+    },
+    "userMenu": {
+      "profile": "Profile",
+      "settings": "Settings",
+      "notifications": "Notifications",
+      "logout": "Log out",
+      "loggingOut": "Logging out..."
+    },
+    "settingsDialog": {
+      "open": "Open Settings",
+      "title": "Settings",
+      "description": "Customize your settings here.",
+      "nav": {
+        "appearance": "Appearance",
+        "notifications": "Notifications",
+        "connections": "Connections",
+        "password": "Password",
+        "security": "Security"
+      },
+      "breadcrumb": {
+        "settings": "Settings",
+        "messagesMedia": "Messages & media"
+      }
+    },
+    "language": {
+      "label": "Language",
+      "switch": "Switch language"
+    },
+    "theme": {
+      "toggle": "Toggle theme"
+    }
+  },
+  "auth": {
+    "common": {
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "nameLabel": "Name",
+      "passwordPlaceholder": "●●●●●",
+      "or": "OR",
+      "backToLogin": "Back to login",
+      "continueWithGoogle": "Continue with Google"
+    },
+    "login": {
+      "title": "Login to your account",
+      "subtitle": "Enter your email below to login to your account",
+      "emailPlaceholder": "m@example.com",
+      "forgotPassword": "Forgot password?",
+      "submitting": "Logging in...",
+      "submit": "Login",
+      "noAccount": "Don't have an account?",
+      "createAccount": "Create new account"
+    },
+    "loginMfa": {
+      "title": "Verify your sign-in",
+      "subtitle": "Enter the six-digit code from your authenticator.",
+      "otpLabel": "OTP",
+      "verify": "Verify code",
+      "verifying": "Verifying...",
+      "useAnotherAccount": "Use another account"
+    },
+    "register": {
+      "title": "Create an account",
+      "subtitle": "Enter your details below to create your account",
+      "namePlaceholder": "Jane Doe",
+      "emailPlaceholder": "m@example.com",
+      "submitting": "Creating...",
+      "submit": "Create account",
+      "termsPrefix": "By clicking create account, you agree to our",
+      "termsLink": "Terms of Service",
+      "termsJoiner": "and",
+      "privacyLink": "Privacy Policy",
+      "termsSuffix": ".",
+      "alreadyAccount": "Already have an account?",
+      "login": "Login",
+      "resend": {
+        "sending": "Sending...",
+        "availableIn": "Resend available in {{time}}",
+        "button": "Resend verification email"
+      }
+    },
+    "registerSuccess": {
+      "created": {
+        "title": "Registration successful!",
+        "description": "We've sent a verification link to your email address. Please verify your email to activate your account."
+      },
+      "unverified": {
+        "title": "Account not verified",
+        "description": "Your account is not verified yet. You can resend the verification email below."
+      },
+      "deactivated": {
+        "title": "Account deactivated",
+        "description": "Your account was previously deactivated. Please contact our support if you need help."
+      },
+      "notAllowed": {
+        "title": "Account not allowed",
+        "description": "Your account is not allowed to register right now. Please contact our support if you need help."
+      },
+      "resend": {
+        "limit": "You have reached the resend limit. Try again in 15 minutes.",
+        "hint": "Didn't get the email? We'll send another verification link."
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "subtitle": "Enter your email and we'll send reset instructions",
+      "emailPlaceholder": "m@example.com",
+      "submitSend": "Send reset email",
+      "submitResend": "Resend reset email",
+      "submitting": "Sending...",
+      "remembered": "Remembered your password?"
+    },
+    "forgotPasswordSuccess": {
+      "title": "Check your email",
+      "description": "If an account exists for this email, you'll receive a reset email."
+    },
+    "resetPassword": {
+      "title": "Reset your password",
+      "subtitle": "Create a new password for your account",
+      "newPasswordLabel": "New password",
+      "newPasswordPlaceholder": "Create a new password",
+      "confirmPasswordLabel": "Confirm password",
+      "confirmPasswordPlaceholder": "Confirm your new password",
+      "hint": "Use 8-72 characters with upper/lowercase letters and a number.",
+      "submit": "Reset password",
+      "submitting": "Resetting...",
+      "requestNew": "Request a new reset link",
+      "invalid": {
+        "title": "Reset link is invalid",
+        "description": "This link is missing, expired, or already used. Request a new reset link."
+      },
+      "success": {
+        "title": "Password reset",
+        "description": "Your password has been updated. You can now log in with your new password."
+      }
+    },
+    "verifyEmail": {
+      "title": "Verify your email",
+      "subtitle": "Enter the email you used to register and confirm your account",
+      "emailPlaceholder": "m@example.com",
+      "submit": "Verify email",
+      "submitting": "Verifying...",
+      "invalid": {
+        "title": "Invalid verification link",
+        "description": "This link is missing, expired, or already used. Please request a new verification email."
+      },
+      "verifying": {
+        "title": "Verifying your email",
+        "description": "Hold on while we confirm your account."
+      }
+    },
+    "layout": {
+      "backgroundAlt": "Authentication background"
+    },
+    "toasts": {
+      "loginSuccess": "Logged in",
+      "mfaTokenMissing": "MFA token missing. Please sign in again.",
+      "registerSuccess": "Account created. Please verify your email.",
+      "forgotPasswordSuccess": "Check your email for reset instructions",
+      "resetPasswordSuccess": "Your password has been reset. Please log in.",
+      "verifySuccess": "Your email has been verified. You can now log in.",
+      "verifyInvalid": "Verification link is invalid or expired.",
+      "sessionMissing": "Login session missing. Please try again.",
+      "oauthUnavailable": "{{provider}} sign-in is not wired yet"
+    }
+  },
+  "validation": {
+    "email": {
+      "invalid": "Please enter a valid email"
+    },
+    "password": {
+      "required": "Password is required",
+      "length": "New password must be 8-72 characters",
+      "noSpaces": "Password cannot contain spaces",
+      "uppercase": "Password must include at least one uppercase letter",
+      "lowercase": "Password must include at least one lowercase letter",
+      "number": "Password must include at least one number"
+    },
+    "name": {
+      "invalid": "Please enter a valid name"
+    }
+  }
+}
